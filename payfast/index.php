@@ -8,6 +8,8 @@ $amount = 100;
 $item_name = 'Test';
 
 // Prepare data to be sent to PayFast
+
+
 $data = array(
     'merchant_id' => $merchant_id,
     'merchant_key' => $merchant_key,
