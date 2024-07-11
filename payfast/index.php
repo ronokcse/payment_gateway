@@ -2,8 +2,8 @@
 // Collect form data
 $merchant_id = '10034169';
 $merchant_key = 'p46yivjhnv6wb';
-$return_url = 'https://5b3d-103-121-60-46.ngrok-free.app/success.php';
-$notify_url = 'https://5b3d-103-121-60-46.ngrok-free.app/notify_url.php';
+$return_url = 'https://5b3d-103-121-60-46.ngrok-free.app/success.php'; //Success url change your own url
+$notify_url = 'https://5b3d-103-121-60-46.ngrok-free.app/notify_url.php'; //notify url . (this url must be server based ngrok or live server, where you can not access thsis url. after complete the payment the payfast give e response as webhook. and you need to insert the response in database for further check.)
 $amount = 100;
 $item_name = 'Test';
 
@@ -48,7 +48,6 @@ if (curl_errno($ch)) {
 } else {
     echo $response;
 }
-
 // Close cURL session
 curl_close($ch);
 ?>
