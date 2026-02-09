@@ -1,0 +1,18 @@
+2026-01-19 11:03:13
+{"Body":{"stkCallback":{"MerchantRequestID":"2215-4661-8d6b-a521595ebee61013","CheckoutRequestID":"ws_CO_19012026140311563708374149","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached."}}}
+
+2026-01-19 11:03:53
+
+
+2026-01-19 11:05:00
+
+
+2026-01-19 11:05:18
+
+
+2026-01-19 11:06:40
+
+
+2026-01-19 11:06:49
+
+
